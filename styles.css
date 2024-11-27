@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 24px;
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.container {
+    background-color: lightgray;
+}
+
+.display {
+    width: 100px;
+    height: 48px;
+    background-color: lightgreen;
+}
