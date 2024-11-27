@@ -1,8 +1,8 @@
-:root {
+/* :root {
     --container-width: 250px;
     --button-gap: 12px;
     --button-size: 50px;
-}
+} */
 
 * {
     margin: 0;
@@ -14,8 +14,8 @@ html {}
 
 body {
     padding: 24px;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
 }
 
 #heading {
@@ -24,16 +24,22 @@ body {
 }
 
 .container {
+    background-color: lightseagreen;
+    
+}
+
+/* 
+.container {
     background-color: lightgray;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* width: var(--container-width); */
+    display: flex;
+    flex-direction: column;
+    width: var(--container-width);
     margin: 0 auto;
     border: 2px solid black;
 }
 
 .display {
-    /* display: flex; */
+    display: flex;
     margin: 8px;
     padding: 8px;
     background-color: lightgreen;
@@ -41,13 +47,13 @@ body {
 }
 
 .inputs {
-    /* display: flex;
-    gap: var(--button-gap); */
+    display: flex;
+    gap: var(--button-gap);
     margin: 12px;
 }
 
 .nums {
-    /* display: flex; */
+    display: flex;
     gap: var(--button-gap);
     flex-wrap: wrap;
 }
@@ -61,15 +67,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--button-gap);
-    /* min-width: calc(var(--button-size) + var(--button-gap)); */
+    min-width: calc(var(--button-size) + var(--button-gap));
 }
 
 .operators button {
-    /* flex: auto; */
+    flex: auto;
     flex: 1;
 }
 
 button {
     padding: 8px;
     min-width: var(--button-size);
-}
+} */
