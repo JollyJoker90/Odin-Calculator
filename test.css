@@ -14,8 +14,8 @@ html {}
 
 body {
     padding: 24px;
-    /* width: 100vw;
-    height: 100vh; */
+    width: 100vw;
+    height: 100vh;
 }
 
 #heading {
@@ -24,58 +24,47 @@ body {
 }
 
 .container {
-    background-color: lightseagreen;
-    
-}
-
-/* 
-.container {
-    background-color: lightgray;
-    display: flex;
-    flex-direction: column;
-    width: var(--container-width);
     margin: 0 auto;
+    width: min(33%, 300px);
+    background-color: lightgray;
     border: 2px solid black;
+    border-radius: 12px;
 }
 
 .display {
-    display: flex;
+    background-color: lightgreen;
     margin: 8px;
     padding: 8px;
-    background-color: lightgreen;
-    text-align: right;
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px solid lightcoral;
+    border-radius: 12px;
 }
 
 .inputs {
+    margin: 8px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+ul li {
     display: flex;
-    gap: var(--button-gap);
-    margin: 12px;
-}
-
-.nums {
-    display: flex;
-    gap: var(--button-gap);
-    flex-wrap: wrap;
-}
-
-.nums button {
-    flex: 1;
-    background-color: aqua;
-}
-
-.operators {
-    display: flex;
-    flex-direction: column;
-    gap: var(--button-gap);
-    min-width: calc(var(--button-size) + var(--button-gap));
-}
-
-.operators button {
-    flex: auto;
-    flex: 1;
+    /* justify-content: space-between; */
+    gap: 8px;
 }
 
 button {
-    padding: 8px;
-    min-width: var(--button-size);
-} */
+    padding: 8px 12px;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 12px;
+    /* width: 20%; */
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
